@@ -1,0 +1,27 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prod-image{
+    height: 275px;
+    width: 250px;
+    margin: auto;
+}
+.prod-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.prod-desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#my-card{
+    width: 300px;
+    height: 30%;
+}
+
